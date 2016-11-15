@@ -8,10 +8,13 @@ Type at the command prompt java –jar export <source Dir> <targetDir>  debugOnO
 
 #Examples
 Debug on
-java -jar Excelcsv.jar "C:\\xlstocsv\\excel" "C:\\xlstocsv\\csv" true
+java -jar ExportExcel-jar-with-dependencies.jar "C:\\xlstocsv\\excel" "C:\\xlstocsv\\csv" true
 
 Debug Off
-java -jar Excelcsv.jar "C:\\xlstocsv\\excel" "C:\\xlstocsv\\csv"
+java -jar ExportExcel-jar-with-dependencies.jar "C:\\xlstocsv\\excel" "C:\\xlstocsv\\csv"
 
 
 Debug True will show comments
+
+#Maven
+mvn install
